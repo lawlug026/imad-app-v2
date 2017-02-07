@@ -1,8 +1,3 @@
-var http = require('http'),
-    inspect = require('util').inspect;
-
-
-
 
 var express = require('express');
 var morgan = require('morgan');
