@@ -1,3 +1,8 @@
+var http = require('http'),
+    inspect = require('util').inspect;
+ 
+var Busboy = require('busboy');
+
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
