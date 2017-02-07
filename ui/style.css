@@ -31,4 +31,12 @@ body {
                 background-color: rgba(234, 255, 59, 0.75);
                 box-shadow: 10px 20px 100px 2px black;
             }
+            
+        .main-container
+        {
+            max-width:650px;
+            padding-top: 20px;
+            margin: 0 auto;
+            background-color: skyblue;
+        }
     
