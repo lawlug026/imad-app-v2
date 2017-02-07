@@ -15,7 +15,7 @@ var articles=
                                 CONTENT of ARTICLE ONE
                             </p>`
             },
-        articletwo:{
+        'articletwo':{
               title:'Article TWO'  ,
               head:'Article TWO',
               date:'08 Feb 2016',
