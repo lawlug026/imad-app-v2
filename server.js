@@ -1,8 +1,8 @@
 var http = require('http'),
     inspect = require('util').inspect;
- var multer  = require('multer')
+ var multer  = require('multer');
 
-var Busboy = require('busboy');
+
 
 var express = require('express');
 var morgan = require('morgan');
