@@ -7,7 +7,7 @@ var app = express();
 app.use(morgan('combined'));
 var articles=
     {
-        a:{
+        'a':{
               title:'Article One'  ,
               head:'Article One',
               date:'07 Feb 2016',
