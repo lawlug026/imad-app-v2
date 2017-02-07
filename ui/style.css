@@ -16,9 +16,10 @@ body {
     font-weight: bold;
 }
 
-.img-medium {
-    box-shadow: 10px 20px 100px 2px black;
+.img-medium {    
+    box-shadow: inset 19px 0px 38px 16px black;
     height: 200px;
+    border-radius: 304px;
 }
 
 
