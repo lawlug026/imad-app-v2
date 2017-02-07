@@ -1,6 +1,6 @@
 var http = require('http'),
     inspect = require('util').inspect;
- var multer  = require('multer');
+
 
 
 
@@ -89,7 +89,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-var articleName=request.params.articleName;
+var articleName=req.param.articleName;
 app.get('/:articleName', function(req,res){
    res.send(createTemplate(articles[articleName])); 
 });
