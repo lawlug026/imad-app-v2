@@ -77,7 +77,7 @@ var articles=
     </html>
     `;  
     
-    return htmlTemplate;
+    return(htmlTemplate);
 }
 
 app.get('/', function (req, res) {
