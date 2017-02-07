@@ -33,6 +33,17 @@ var articles=
             },
     };
     
+    
+
+var articleone={
+              title:'Article One',
+              head:'Article One',
+              date:'07 Feb 2016',
+              content:`  <p>
+                                CONTENT of ARTICLE ONE
+                            </p>`
+            };
+    
     function createTemplate(data)
 {   var title=data.title;
     var date=data.date;
@@ -88,7 +99,7 @@ app.get('/', function (req, res) {
 app.get('/:articleName', function(req,res){
    
 var articleName=req.params.articleName;
-   res.send(createTemplate(articles[articleName])); 
+   res.send(createTemplate(articleone)); 
 });
 
 
