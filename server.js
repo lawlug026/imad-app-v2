@@ -109,5 +109,4 @@ app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
 
-var footer=document.getElementByID("footer");
-footer.innerHTML=counter.toString();
+
