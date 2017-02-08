@@ -19,7 +19,7 @@ button.onclick = function () {
       }  
     };
     
-   request.open('GET','http://http://lawlug026.imad.hasura-app.io/articleone.html', true);
+   request.open('GET','http://lawlug026.imad.hasura-app.io/articleone.html', true);
    request.send(null);
     
 };
