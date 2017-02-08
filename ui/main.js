@@ -1,7 +1,9 @@
 console.log('Loaded!');
 
 
-var counter=document.getElementbyID('links');
-counter.onclick()= function(){
+var button = document.getElementById("first");
+button.onclick = function () {
     
-}
+    
+    
+};
