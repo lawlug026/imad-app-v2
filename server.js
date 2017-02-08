@@ -36,8 +36,7 @@ var articles=
     
 
 
-    function createTemplate(data)
-{   var title=data.title;
+    function createTemplate(data){   var title=data.title;
     var date=data.date;
     var head=data.head;
     var content=data.content;
@@ -87,9 +86,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-
+var counter=0;
 app.get('/:articleName', function(req,res){
-   
+   counter=counter+1;
 var articleName=req.params.articleName;
    res.send(createTemplate(articles[articleName])); 
 });
@@ -109,3 +108,6 @@ var port = 8080; // Use 8080 for local development because you might already hav
 app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
+
+var footer=document.getElementByID("footer");
+footer.innerHTML=counter.toString();
