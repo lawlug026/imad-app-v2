@@ -11,7 +11,7 @@ button.onclick = function () {
           if(request.status==200)
           {
               var counter=request.responseText;
-               var first_read=document.getElementById("spn");
+               var first_read=document.getElementById("span");
     first_read.innerHTML=counter.toString();
           }
           
