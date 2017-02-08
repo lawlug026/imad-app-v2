@@ -1,7 +1,7 @@
 console.log('Loaded!');
 
 
-var button = document.getElementById("first");
+var button = document.getElementById("btn");
 button.onclick = function () {
     
     var request = new XMLHttpRequest();
@@ -11,7 +11,7 @@ button.onclick = function () {
           if(request.status===200)
           {
               var counter=request.responseText;
-               var first_read=document.getElementById("first_read");
+               var first_read=document.getElementById("spn");
     first_read.innerHTML=counter.toString();
           }
           
