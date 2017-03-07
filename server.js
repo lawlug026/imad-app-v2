@@ -6,11 +6,11 @@ var Pool = require('pg').Pool;
 
 var config = {
     user:'lawlug026',
-    database:'lawlug026'
-    host:'db.imad.hasua-app.io',
-    port:'5432'
+    database:'lawlug026',
+    host:'db.imad.hasura-app.io',
+    port:'5432',
     password:process.env.DB_PASSWORD
-}
+};
 
 var app = express();
 app.use(morgan('combined'));
