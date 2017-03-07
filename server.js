@@ -127,7 +127,7 @@ app.get('/articles/:articleName', function(req,res){
         }
         else
         {
-            var articleData= res.send(result.row[0]);
+            var articleData= res.send(result.rows[0]);
             res.send(createTemplate(articleData)); 
         }
         
